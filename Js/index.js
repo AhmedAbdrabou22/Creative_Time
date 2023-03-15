@@ -1,4 +1,4 @@
-AOS.init();
+
 let data1 = document.querySelector('.data1')
 let data2 = document.querySelector('.data2')
 let buttons = document.querySelectorAll('.button')

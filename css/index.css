@@ -279,6 +279,85 @@ class Resource style
 .free_Demo .table th{
     text-align: center;
 }
+.free_Demo .btn:first-child{
+    color: #777;
+    border-color: #999 !important;
+}
+.free_Demo .btn:last-child{
+    color: #1ae28a !important;
+    border-color:#1ae28a;
+}
+
+
+/** section mesages */
+.messages{
+    background: linear-gradient(135deg,rgba(62,62,62,0.89) 0%,#151515 100%);
+    color: #fff;
+    padding:150px;
+}
+.messages i{
+    font-size:150px;
+}
+.messages p{
+    margin-top:15px;
+    font-size:25px;
+}
+.messages .socail{
+    margin: auto;
+    width:35%;
+    padding: 10px;
+}
+.messages .socail button{ 
+    color:#fff;
+}
+.messages .socail button:first-child{
+    background-color: #3b5998;
+}
+.messages .socail button:last-child{
+    background-color: #fff;
+    color:black;
+}
+.messages .socail button:nth-child(2){
+    background-color: #55acee;
+}
+.messages .socail i{
+    font-size:20px;
+}
+
+
+
+
+/**Section Footer  */
+.footer{
+    padding:20px;
+    background-color: #36275d;
+    color:#fff;
+}
+.footer span{
+    font-size: 21px;
+}
+input[type="text"]{
+    border: none;
+    outline:none;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+
+.sd{
+    background-color: #55acee;
+}
+
+
+
+
+
+
+
+
 
 @media(max-width:768px){
     .parent{
