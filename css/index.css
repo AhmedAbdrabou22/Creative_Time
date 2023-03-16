@@ -9,6 +9,7 @@
 
 body{
     background-color: #e5e5e5;
+    overflow-x: hidden;
 }
 
 
@@ -377,5 +378,29 @@ input[type="text"]{
 @media(max-width:768px){
     .parent{
         height: 130vh;
+    }
+    .conainerDef{
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+    }
+    .c div{
+        padding: 20px;
+        text-align: center;
+    }
+    .f{
+        display: flex;
+        flex-direction:row;
+        /* background-color: red; */
+    }
+    .sd{
+        /* background-color: red; */
+        width:95px;
+    }
+    .input{
+        width:160px;
+    }
+    .f span{
+        font-size: 18px;
     }
 }
